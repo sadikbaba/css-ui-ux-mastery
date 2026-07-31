@@ -610,7 +610,7 @@ Add one advanced feature that touches every previous domain: e.g., a fully acces
 Realistically 7–10 months of consistent, deliberate practice to reach strong junior / solid mid-level portfolio readiness, depending on weekly hours and prior experience.
 
 ## Portfolio Checklist
-- [ ] Digital Business Card (Phase 1)
+- [x] Digital Business Card (Phase 1)
 - [ ] Responsive Portfolio / Layout showcase (Phase 2)
 - [ ] Living Design System / Style Guide (Phase 3)
 - [ ] Multi-step Onboarding with UX psychology (Phase 4)
