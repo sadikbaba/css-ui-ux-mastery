@@ -34,3 +34,14 @@ design/
 
 
 .copilot-install
+
+
+# Node
+node_modules/
+dist/
+
+# Package manager logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
