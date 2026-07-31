@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  padding: 40px;
+  background: #f0f0f0;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+.box {
+  /* Content size */
+  width: 200px;
+  height: 100px;
+
+  /* The four layers */
+  padding: 30px;               /* light green area */
+  border: 8px solid black;     /* the border */
+  margin: 40px;                /* space outside */
+
+  /* Visual help */
+  background-color: #fff59d;   /* yellow = content */
+  background-clip: content-box; /* important trick */
+
+  /* Extra styling so we can see it better */
+  box-shadow: 0 0 0 40px #e0e0e0; /* simulates margin area visually */
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.note {
+  margin-top: 30px;
+  line-height: 1.6;
+  color: #333;
+}

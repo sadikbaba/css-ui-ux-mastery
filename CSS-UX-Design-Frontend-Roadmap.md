@@ -634,7 +634,7 @@ Realistically 7–10 months of consistent, deliberate practice to reach strong j
 - [ ] No secrets in the repository
 
 ## Interview Preparation Checklist
-- [ ] Can explain the box model and `box-sizing` clearly
+- [x] Can explain the box model and `box-sizing` clearly
 - [ ] Can white-board Flexbox vs Grid decision
 - [ ] Can walk through a design system token architecture
 - [ ] Can discuss Fitts’s Law / Hick’s Law with examples

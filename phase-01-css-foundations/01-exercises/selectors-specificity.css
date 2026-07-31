@@ -1,0 +1,22 @@
+/* 1. Normal paragraph → black text */
+p {
+  color: black;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+
+/* 2. Class → blue text */
+.highlight {
+  color: blue;
+  background-color: #e3f2fd;
+}
+
+/* 3. ID → green text */
+#special {
+  color: green;
+  background-color: #e8f5e9;
+}
+
+/* 4. Make the one that has BOTH become orange */
+/* You decide how to write this rule */
