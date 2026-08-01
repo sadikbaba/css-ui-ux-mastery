@@ -34,7 +34,7 @@ a {
 /* Header */
 .header {
   background-color: var(--color-bg);
-  padding: 20px 0;
+  padding: 15px 0;
   border-bottom: 1px solid #eee;
   position: sticky;
   top: 0;
@@ -170,8 +170,10 @@ a {
 @media (max-width: 768px) {
   .header .container {
     flex-direction: column;
-    gap: 12px;
+    gap: -3px;
     text-align: center;
+    margin-top: -10px;
+    margin-bottom: -8px;
   }
 
   .nav {
@@ -188,5 +190,9 @@ a {
 
   .projects-grid {
     grid-template-columns: 1fr;
+  }
+
+  .project-card:hover {
+    transform: translateY(-5px);
   }
 }
