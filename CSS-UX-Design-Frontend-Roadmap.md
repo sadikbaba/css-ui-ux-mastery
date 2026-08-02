@@ -9,7 +9,7 @@
 - Accessibility → Making it usable for more people  
 - Frontend Development → Turning the design into a real working interface  
 
-**Core Philosophy**  
+**Core Philosophy**   
 Every concept is learned by building real projects. Theory exists only to serve the project.  
 You never move to the next phase until the current project is:  
 - Built  
