@@ -613,7 +613,7 @@ Realistically 7–10 months of consistent, deliberate practice to reach strong j
 - [x] Digital Business Card (Phase 1)
 - [x] Responsive Portfolio / Layout showcase (Phase 2)
 - [x] Living Design System / Style Guide (Phase 3)
-- [ ] Multi-step Onboarding with UX psychology (Phase 4)
+- [x] Multi-step Onboarding with UX psychology (Phase 4)
 - [ ] Accessibility case study + component library (Phase 5)
 - [ ] Full production application (Phase 6) – flagship
 - [ ] Clear before/after or process documentation for at least two projects
@@ -637,8 +637,8 @@ Realistically 7–10 months of consistent, deliberate practice to reach strong j
 - [x] Can explain the box model and `box-sizing` clearly
 - [x] Can white-board Flexbox vs Grid decision
 - [x] Can walk through a design system token architecture
-- [ ] Can discuss Fitts’s Law / Hick’s Law with examples
-- [ ] Can audit a page for accessibility issues live
+- [x] Can discuss Fitts’s Law / Hick’s Law with examples
+- [x] Can audit a page for accessibility issues live
 - [ ] Can explain how you structured a React component library
 - [ ] Can discuss offline strategies and trade-offs
 - [ ] Can defend technical decisions made in the capstone
