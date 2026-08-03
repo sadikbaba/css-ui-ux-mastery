@@ -612,7 +612,7 @@ Realistically 7–10 months of consistent, deliberate practice to reach strong j
 ## Portfolio Checklist
 - [x] Digital Business Card (Phase 1)
 - [x] Responsive Portfolio / Layout showcase (Phase 2)
-- [ ] Living Design System / Style Guide (Phase 3)
+- [x] Living Design System / Style Guide (Phase 3)
 - [ ] Multi-step Onboarding with UX psychology (Phase 4)
 - [ ] Accessibility case study + component library (Phase 5)
 - [ ] Full production application (Phase 6) – flagship
@@ -636,7 +636,7 @@ Realistically 7–10 months of consistent, deliberate practice to reach strong j
 ## Interview Preparation Checklist
 - [x] Can explain the box model and `box-sizing` clearly
 - [x] Can white-board Flexbox vs Grid decision
-- [ ] Can walk through a design system token architecture
+- [x] Can walk through a design system token architecture
 - [ ] Can discuss Fitts’s Law / Hick’s Law with examples
 - [ ] Can audit a page for accessibility issues live
 - [ ] Can explain how you structured a React component library
