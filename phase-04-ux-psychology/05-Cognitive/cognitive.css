@@ -1,10 +1,113 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-
 body {
-    
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+
+  background-color: #f4f4f4;
+  gap: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 40px;
+
+  height: 100%;
+
+  border-radius: 16px;
+
+  width: 80%;
+
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+}
+
+input,
+label {
+  display: flex;
+  flex-direction: row;
+}
+
+input {
+  padding: 8px 16px;
+  border-radius: 16px;
+  width: 100%;
+
+  font-size: 16px;
+  background: #fff;
+
+  border: 1px solid #d1d5db;
+
+  transition: all 0.2s ease;
+}
+
+input:focus {
+  outline: none;
+
+  border-color: royalblue;
+
+  box-shadow: 0 0 0 4px rgba(65, 105, 225, 0.15);
+}
+div {
+  margin: 8px 0;
+}
+
+button {
+  align-self: center;
+  padding: 8px;
+  border: none;
+  border-radius: 16px;
+  width: 100%;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+
+  margin-top: 24px;
+
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+a {
+  align-self: flex-end;
+  font-size: 16px;
+  margin-top: 4px;
+}
+
+legend {
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+  color: #333;
+}
+
+fieldset {
+  border: none;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  gap: 10px;
+
+  max-width: 800px;
 }
