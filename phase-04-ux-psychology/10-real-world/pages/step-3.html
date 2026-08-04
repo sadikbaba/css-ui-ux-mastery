@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/base.css" />
+    <link rel="stylesheet" href="../css/form.css" />
+    <title>Redesign Multi Step</title>
+  </head>
+  <body>
+    <main>
+      <form action="step-4.html">
+        <!-- changed to step-3 since this is Step 2 -->
+        <fieldset>
+          <legend>Personal Information</legend>
+
+          <!-- Progress bar -->
+          <div class="progress-container">
+            <div class="progress-track">
+              <div class="progress-fill" style="width: 75%"></div>
+
+              <div class="step completed"></div>
+              <div class="step completed"></div>
+              <div class="step active"></div>
+              <div class="step"></div>
+            </div>
+
+            <p class="step-text">Step 3 of 4</p>
+          </div>
+          <!-- ← THIS was missing -->
+
+          <!-- Form fields -->
+          <div class="form-group">
+            <img
+              src="/phase-04-ux-psychology/10-real-world/profile-picture/image.png"
+              alt="profile picture"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="bio">Bio/About</label>
+            <textarea name="bio" id="bio" rows="5"></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="address">Address</label>
+            <input type="text" name="address" id="address" />
+          </div>
+        </fieldset>
+
+        <!-- Buttons outside fieldset (recommended) -->
+        <div class="buttons">
+          <button type="submit">Continue >>></button>
+          <a href="step-2.html">← Back</a>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

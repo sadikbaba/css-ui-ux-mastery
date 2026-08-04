@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/base.css" />
+    <link rel="stylesheet" href="../css/form.css" />
+    <title>Redesign Multi Step</title>
+  </head>
+  <body>
+    <main>
+      <form action="step-3.html">
+        <!-- changed to step-3 since this is Step 2 -->
+        <fieldset>
+          <legend>Complete Profile</legend>
+
+          <!-- Progress bar -->
+          <div class="progress-container">
+            <div class="progress-track">
+              <div class="progress-fill" style="width: 50%"></div>
+
+              <div class="step completed"></div>
+              <div class="step active"></div>
+              <div class="step"></div>
+              <div class="step"></div>
+            </div>
+
+            <p class="step-text">Step 2 of 4</p>
+          </div>
+          <!-- ← THIS was missing -->
+
+          <!-- Form fields -->
+          <div class="form-group">
+            <label for="fullname">First Name</label>
+            <input type="text" id="fullname" name="fullname" />
+          </div>
+
+          <div class="form-group">
+            <label for="lastname">Last Name</label>
+            <input type="text" id="lastname" name="lastname" />
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" />
+          </div>
+        </fieldset>
+
+        <!-- Buttons outside fieldset (recommended) -->
+        <div class="buttons">
+          <button type="submit">Continue >>></button>
+          <a href="step-1.html">← Back</a>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
